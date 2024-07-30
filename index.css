@@ -1,0 +1,550 @@
+body {
+
+    background: radial-gradient(666px at 0.4% 48%, rgb(177, 177, 191) 0%, rgb(89, 89, 99) 97.5%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw;
+    height: 700px;  */
+}
+
+.FITZOheader,
+.FITZOleft,
+.FITZOright,
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 27px;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+.FITZOheader,
+.FITZOleft,
+.FITZOright,
+li,
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.FITZOheader {
+    justify-content: space-between;
+    color: white;
+    padding: -200px;
+    margin-bottom: 100px;
+    max-width: 1500px;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+button {
+    padding: 15px;
+    width: 150px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); */
+    background: linear-gradient(110.1deg, rgb(45, 152, 45) 2.9%, rgb(168, 251, 60) 90.3%);
+}
+
+button:hover {
+    /* background: radial-gradient(circle at 10% 20%, rgb(202, 143, 7) 0%, rgb(229, 82, 3) 90%); */
+    background: linear-gradient(110.1deg, rgb(45, 108, 45) 2.9%, rgb(100, 138, 50) 90.3%);
+}
+
+.FITZOleft {
+    position: relative;
+    text-decoration: none;
+}
+
+.FITZOleft li,
+.FITZOleft p {
+    position: relative;  
+    display: inline-block;
+    cursor: pointer;
+}
+
+.FITZOleft a::before,
+.FITZOleft ::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    /* Adjust the position to place the line just below the text */
+    left: 0;
+    width: 0%;
+    height: 2px;
+    /* background: radial-gradient(circle at 10% 20%, rgb(202, 143, 7) 0%, rgb(229, 82, 3) 90%); */
+    background: linear-gradient(110.1deg, rgb(11, 227, 11) 2.9%, rgb(131, 226, 7) 90.3%);
+    transition: width 250ms ease-in-out;
+}
+
+.FITZOleft a:hover::before {
+    width: 100%;
+}
+
+.ImageBlock {
+    display: flex;
+    padding: 200px;
+    margin-top: -100px;
+    margin-left: 500px;
+    /* margin-left: 500%; */
+    width: 400px;
+    height: auto;
+}
+
+.ImageBlock,
+img {
+    margin-top: -110px;
+
+}
+
+.btn {
+    margin-left: 400px;
+    /* Adjust the value as needed to create the desired gap */
+    /* Optional: Add other styles as needed */
+    background-color: lightblue;
+    padding: 10px;
+    /* width: 200px; */
+    /* height: 100px; */
+}
+
+.BigText {
+    margin-top: -750px;
+    margin-left: 140px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    /* display: inline-block; */
+    font-family: "Poppins", sans-serif;
+    /* font-size: 24px; */
+    animation: slideInFromBottom 1s ease-in;
+    font-size: 60px;
+
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h3 {
+    /* display: inline-block; */
+    font-family: "Poppins", sans-serif;
+    /* font-size: 24px; */
+    animation: slideInFromBottom 1s ease-in;
+
+}
+
+
+/* @keyframes slideInFromBottom {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1; */
+/* }
+}
+  .ImageBlock {
+    animation: slideInFromBottom 2s ease-in;
+  } */
+img {
+    width: 2000px;
+    height: 540px;
+    padding-top: -200px;
+
+}
+
+.BigText h1 {
+    background-color: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+}
+
+h3 {
+    margin-left: 6px;
+}
+
+.Sub-Text h3 {
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    width: 530px;
+    border-radius: -600px;
+    padding: 10px;
+}
+
+body .Image-Block2 {
+    background-color: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+}
+
+.BigText span {
+    color: rgb(133, 214, 26);
+}
+
+.Explore {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.FITZOright {
+    text-align: center;
+    /* margin-top: 90px; */
+    top: 10px;
+    left: 100px;
+    /* margin-left: 100px; */
+
+}
+
+#loginBtn,
+#registerBtn {
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 80px 90px;
+    cursor: pointer;
+    gap: 27px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container>img {
+    width: 600px;
+    height: auto;
+    padding-top: -200px;
+    margin-top: 5px;
+}
+
+.ourProgram {
+    display: flex;
+    justify-content: center;
+}
+
+.ourProgram .crd>img {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    padding-top: 100px;
+
+}
+
+/* img:hover */
+/* plan */
+/* .ourProgram .crd>img:hover{ */
+/* transform: scale(1.06);
+        transition: all 0.8s ease;
+        cursor: pointer; */
+
+.ourProgram .crd>h3 {
+    font-size: x-large;
+    /* background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%); */
+    color: white;
+    padding: 4px;
+    width: 100px;
+    align-items: center;
+    margin-top: -100px;
+    color: white;
+    background-color: red;
+}
+
+
+.ourPlan {
+    display: flex;
+    justify-content: center;
+}
+
+.ourPlan .card {
+    width: 300px;
+    height: 400px;
+    padding: 4px;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    margin-inline: 22px;
+}
+
+.card i {
+    font-size: 22px;
+    margin-top: 22px;
+    color: orange;
+}
+
+.card h3 {
+    margin-top: 22px;
+    color: rgb(58, 249, 58);
+
+}
+
+.card h1 {
+    margin-top: 22px;
+    color: rgb(24, 255, 24);
+}
+
+.card p {
+    margin-top: 12px;
+    color: silver;
+}
+
+.card button {
+    margin-top: 22px;
+    width: 130px;
+    height: 48px;
+    /* background-color: orange; */
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.card button:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(35, 252, 35);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    transition: all 0.8s ease;
+
+    /* width: 310px; */
+    /* height: 440px; */
+    background-color: black;
+    /* font-size: 19px; */
+    cursor: pointer;
+
+}
+
+/* blog */
+.ourBlog {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.ourBlog .blogCard {
+    width: 80%;
+    height: 500px;
+    margin-inline: 22px;
+    background-color: rgb(42, 41, 41);
+    padding-top: 200px;
+
+}
+
+
+.blogCard img {
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.blogCard p {
+    margin-top: 22px;
+}
+
+.blogText a {
+    text-decoration: none;
+    width: 90px;
+    padding: 11px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    margin-top: 22px;
+    cursor: pointer;
+
+}
+
+.blogText>h3 {
+    margin-top: 11px;
+    margin-left: 6px;
+    color: whitesmoke;
+}
+
+/* cantact */
+.contactPage {
+    display: flex;
+    justify-content: center;
+}
+
+.contactText {
+    margin-left: 33px;
+    /* color: rgb(33, 249, 33); */
+    color: black;
+    margin-top: 134px;
+    font-size: 32px;
+    /* background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%); */
+    width: 530px;
+    border-radius: -600px;
+    padding: 10px;
+}
+
+
+.contactPage img {
+    width: 50%;
+    /* height: auto; */
+    /* margin-left: 33px; */
+    /* margin-right: 100px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    /* background: ; */
+    padding-top: 25px;
+}
+
+.contactUs {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.contactUs input {
+    width: 350px;
+    padding: 8px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+.contactUs button {
+    width: 200px;
+    height: 45px;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    background-color: rgb(41, 249, 41);
+    border-radius: 10px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.contactUs button:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(27, 246, 27);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+}
+
+.footer .footerText {
+    margin-inline: 73px;
+    margin-top: 33px;
+}
+
+.footerText p {
+    margin-top: 11px;
+    color: silver;
+}
+
+.mainDiv {
+    width: 45%;
+    height: 400px;
+
+    /* border: 3px solid black; */
+    /* background-color: rgb(32, 235, 32) ; */
+    /* border-radius: 15px 50px 30px; */
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+
+    background-position: top;
+    /* background-size: 800px 400px; */
+    background-repeat: no-repeat;
+    margin-left: 30px;
+
+}
+
+.mainDiv h2 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.mainDiv>p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Gym>img {
+    display: flex;
+    padding: 200px;
+    margin-top: 100%;
+    margin-left: 500px;
+    /* margin-left: 500%; */
+    width: 100%;
+    height: 400px;
+    margin-top: -535px;
+}
+
+/* Media Queries */
