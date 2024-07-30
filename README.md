@@ -4,9 +4,12 @@ Developed FITTZO, a comprehensive gym web application designed to serve both gym
 
 Key Features:
 
-Training Programs: Offers a wide range of fitness programs catering to different goals and fitness levels.
-Expert Trainers: Features profiles of professional trainers and personalized training plans.
-Fitness Tips: Provides users with expert advice and tips to enhance their fitness journey.
+● Training Programs: Offers a wide range of fitness programs catering to different goals and fitness levels.
+
+● Expert Trainers: Features profiles of professional trainers and personalized training plans.
+
+● Fitness Tips: Provides users with expert advice and tips to enhance their fitness journey.
+
 Technologies Used: HTML, CSS, JavaScript, Bootstrap
 
 ![Screenshot 2024-07-30 145204](https://github.com/user-attachments/assets/42fa197d-3c7c-43e5-a317-4bbdf3d2090a)
